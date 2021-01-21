@@ -5,8 +5,9 @@ namespace AppService.Specialist.OSS.NET._1.Controllers
     {
         public static void Copy()
         {
-            CopyUtil copyUtil = new CopyUtil();
+            Helper copyUtil = new Helper();
             copyUtil.SaveOnDisk();
+            copyUtil.WaitToFinish();
         }
     }
 }
