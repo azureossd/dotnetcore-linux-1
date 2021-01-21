@@ -1,4 +1,4 @@
 .vs
 bin/*
 obj/*
-Properties/PublishProfiles/*
+/Properties/PublishProfiles/*
