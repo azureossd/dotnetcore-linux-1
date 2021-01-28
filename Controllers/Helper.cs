@@ -30,7 +30,7 @@ namespace AppService.Specialist.OSS.NET._1.Controllers
     {
         public void Execute()
         {
-            var num = 2147483647;
+            var num = 2147483647112;
             int reportnum = 1;
             for (var index = 1; index < num; index++)
             {
